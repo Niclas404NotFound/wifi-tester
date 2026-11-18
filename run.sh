@@ -75,7 +75,7 @@ while [[ "$ROUNDS" -eq 0 || "$RUN" -le "$ROUNDS" ]]; do
     ab -n "$REQUESTS" -c "$CONCURRENCY" "$URL"
 
     echo "Finished run $RUN"
-    ((RUN++))
+    RUN=$((RUN + 1))
 done
 
 echo "All tests completed."
