@@ -27,7 +27,7 @@ cd wifi-tester
 chmod +x ./run.sh
 ./run.sh -n REQUESTS -c CONCURRENCY [-r ROUNDS] URL
 ```
-Example usage:
+7. Example usage:
 ```bash
 # 10 times
 ./run.sh -n 100 -c 1 -r 10 https://example.com/
@@ -61,7 +61,7 @@ cd wifi-tester
 chmod +x ./run.sh
 ./run.sh -n REQUESTS -c CONCURRENCY [-r ROUNDS] URL
 ```
-Example usage:
+7. Example usage:
 ```bash
 # 10 times
 ./run.sh -n 100 -c 1 -r 10 https://example.com/
